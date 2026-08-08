@@ -1,0 +1,16 @@
+{
+  "$schema": "file:///C:/TheiaProject/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "Test1 (Minecraft 1.21.1)",
+    "description": "Test1 Running Minecraft 1.21.1 (Fabric v0.19.3)",
+    "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
+    "address": "51.210.203.158:25565",
+    "mainServer": true,
+    "autoconnect": false
+  },
+  "fabric": {
+    "version": "0.19.3"
+  },
+  "untrackedFiles": []
+}
