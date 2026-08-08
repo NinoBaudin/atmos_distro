@@ -1,0 +1,526 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "Test1-1.21.1",
+      "name": "Test1 (Minecraft 1.21.1)",
+      "description": "Test1 Running Minecraft 1.21.1 (Fabric v0.19.3)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "51.210.203.158:25565",
+      "minecraftVersion": "1.21.1",
+      "mainServer": true,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.19.3",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1976502,
+            "MD5": "881e0e9f53a11b9ad468b47afd678bfd",
+            "url": "http://localhost:8080/repo/lib/net/fabricmc/fabric-loader/0.19.3/fabric-loader-0.19.3.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.1-fabric-0.19.3",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2862,
+                "MD5": "e5330efe1bc4ae71c9c8888ac50cb9ea",
+                "url": "http://localhost:8080/repo/versions/1.21.1-fabric-0.19.3/1.21.1-fabric-0.19.3.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.10.1",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126151,
+                "MD5": "9cb72080438acf27f2607002e1444a7b",
+                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.10.1",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35140,
+                "MD5": "6dd9011ec87f65e4b2e14e938c4118e4",
+                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.10.1",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 74840,
+                "MD5": "8eee0b1bdd046baf472eb83dd5e6bb44",
+                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.10.1",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51958,
+                "MD5": "62541e1dc62331408ef31317555bf4fa",
+                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.10.1",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 95628,
+                "MD5": "d0892ecb209867805e7d2418e5dc6c42",
+                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.17.3+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1540060,
+                "MD5": "87002a5fc9faa1543bf4204f8d5876fb",
+                "url": "http://localhost:8080/repo/lib/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 657725,
+                "MD5": "850be48a3406b9efdf8e64b1c2db97f8",
+                "url": "http://localhost:8080/repo/lib/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "io.github.foundationgames:animatica:0.6.1+1.21@jar",
+          "name": "Animatica",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 71502,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/animatica-0.6.1+1.21.jar",
+            "MD5": "b66525f1766280f5460c9536b08a243e"
+          }
+        },
+        {
+          "id": "dev.architectury.utils:architectury:13.0.11@jar",
+          "name": "Architectury",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 600921,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/architectury-13.0.11-fabric.jar",
+            "MD5": "5d7a93f9b84d8facf6a7d7a51d71158b"
+          }
+        },
+        {
+          "id": "com.ardacraft:ardagrass:1.3-1.21.1@jar",
+          "name": "ArdaGrass",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 41731,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/ArdaGrass-1.3-1.21.1.jar",
+            "MD5": "e5e6983091a537c7f23f5b9618c9026d"
+          }
+        },
+        {
+          "id": "Atmos.atmos:atmos:1.0@jar",
+          "name": "AtmosRoleplay",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 205423,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/AtmosMOD-1.0.jar",
+            "MD5": "8c1e6801fef090b23182ff84883e70bf"
+          }
+        },
+        {
+          "id": "com.moulberry:axiom:5.4.2@jar",
+          "name": "Axiom",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 47067416,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/Axiom-5.4.2-for-MC1.21.1.jar",
+            "MD5": "76fce4da6c71015bcf3072974126feb2"
+          }
+        },
+        {
+          "id": "mod.azure:azurelib:3.1.11@jar",
+          "name": "AzureLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 892447,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/azurelib-fabric-1.21.1-3.1.11.jar",
+            "MD5": "f24afd4c832b150f303d0059dcc3e621"
+          }
+        },
+        {
+          "id": "me.cominixo:betterf3:11.0.3@jar",
+          "name": "BetterF3",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1810710,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/BetterF3-11.0.3-Fabric-1.21.1.jar",
+            "MD5": "4f3a811be18c5c1cb64f39f3de6fb0bd"
+          }
+        },
+        {
+          "id": "shcm.shsupercm:citresewn:1.2.2+1.21@jar",
+          "name": "CIT Resewn",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 396723,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/citresewn-1.2.2+1.21.jar",
+            "MD5": "854f61b1e8c28a6f28cfcba4eff41647"
+          }
+        },
+        {
+          "id": "me.shedaniel.autoconfig.example:cloth-config:15.0.140@jar",
+          "name": "Cloth Config v15",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1157166,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/cloth-config-15.0.140-fabric.jar",
+            "MD5": "a2c091b027ad6ba8e54b07020fd45884"
+          }
+        },
+        {
+          "id": "com.conquestrefabricated:conquest:1.7.0@jar",
+          "name": "ConquestReforged Fabric",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 246113400,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/ConquestReforged-fabric-1.21.1-1.7.0.jar",
+            "MD5": "e9597924277e433132847512a666ba5d"
+          }
+        },
+        {
+          "id": "me.pepperbell:continuity:3.0.0+1.21@jar",
+          "name": "Continuity",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1014044,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/continuity-3.0.0+1.21.jar",
+            "MD5": "daee3841730e2576a621943f289deadb"
+          }
+        },
+        {
+          "id": "org.orecruncher:dsurround:0.4.2@jar",
+          "name": "Dynamic Surroundings",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 16849254,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/dynamicsurroundings-fabric-1.21.1-0.4.2.jar",
+            "MD5": "c0dbe9c0d4c420bf951f3bad068112d3"
+          }
+        },
+        {
+          "id": "de.markusbordihn.easynpc.bundle:easy_npc_bundle:7.4.1@jar",
+          "name": "Easy NPC (Bundle)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 25259,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/easy_npc_bundle-fabric-1.21.1-7.4.1.jar",
+            "MD5": "096b165863577794f6200751398d9784"
+          }
+        },
+        {
+          "id": "de.markusbordihn.easynpc.configui:easy_npc_config_ui:7.4.1@jar",
+          "name": "Easy NPC: Config UI",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1021461,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/easy_npc_config_ui-fabric-1.21.1-7.4.1.jar",
+            "MD5": "4cdca6c94c556263a5c7892b8d040ffc"
+          }
+        },
+        {
+          "id": "de.markusbordihn.easynpc:easy_npc:7.4.1@jar",
+          "name": "Easy NPC",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2322666,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/easy_npc-fabric-1.21.1-7.4.1.jar",
+            "MD5": "624b1342302ad5a02a94c5aed5186445"
+          }
+        },
+        {
+          "id": "io.github.kosmx.emotes:emotecraft:2.4.12@jar",
+          "name": "Emotecraft",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 863362,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/emotecraft-for-MC1.21.1-2.4.12-fabric.jar",
+            "MD5": "068aace7ea97d0a511ce4e13599c7c79"
+          }
+        },
+        {
+          "id": "traben.entity_model_features:entity_model_features:3.2.4@jar",
+          "name": "Entity Model Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 565280,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/entity_model_features-3.2.4-1.21-fabric.jar",
+            "MD5": "91f3be98f2f2cd76d3ad68525f76ff79"
+          }
+        },
+        {
+          "id": "traben.entity_texture_features:entity_texture_features:7.1@jar",
+          "name": "Entity Texture Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 745421,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/entity_texture_features_1.21-fabric-7.1.jar",
+            "MD5": "ae33b3cdbe2d7b431e5d36c41efb34c9"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.10.3@jar",
+          "name": "EntityCulling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1594188,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/entityculling-fabric-1.10.3-mc1.21.1.jar",
+            "MD5": "7fe2076a73d05ff53624485d43a31618"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.116.12+1.21.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2427037,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/fabric-api-0.116.12+1.21.1.jar",
+            "MD5": "f85c049c10c2240f89abe287ba0882d4"
+          }
+        },
+        {
+          "id": "io.github.amerebagatelle:fabricskyboxes:0.7.4+mc1.21@jar",
+          "name": "FabricSkyBoxes",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 206304,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/fabricskyboxes-0.7.4+mc1.21_custom.jar",
+            "MD5": "84881ff7eadf724be125b39d5e749768"
+          }
+        },
+        {
+          "id": "generated.fabricmod:ferritecore:7.0.3@jar",
+          "name": "FerriteCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 123450,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/ferritecore-7.0.3-fabric.jar",
+            "MD5": "b8513c8c3eef01ea1117ed8d8cba060d"
+          }
+        },
+        {
+          "id": "com.moulberry:flashback:0.39.5@jar",
+          "name": "Flashback",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 210803887,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/Flashback-0.39.5-for-MC1.21.1.jar",
+            "MD5": "45e3e6737a1fcefb97fae6a51a25962b"
+          }
+        },
+        {
+          "id": "generated.fabricmod:immediatelyfast:1.6.10+1.21.1@jar",
+          "name": "ImmediatelyFast",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 342770,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/ImmediatelyFast-Fabric-1.6.10+1.21.1.jar",
+            "MD5": "15a2eafb373bf55d7db6b45971110825"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.8.8+mc1.21.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2690177,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/iris-fabric-1.8.8+mc1.21.1.jar",
+            "MD5": "1179fe09b9ba970e84ed59259adfe65a"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:19.43.0.392@jar",
+          "name": "Just Enough Items",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1714635,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/jei-1.21.1-fabric-19.43.0.392.jar",
+            "MD5": "99be3a7f45c26d66f68884fa9064cb66"
+          }
+        },
+        {
+          "id": "generated.fabricmod:lambdynlights:4.8.10+1.21.1@jar",
+          "name": "LambDynamicLights",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2022585,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/lambdynamiclights-4.8.10+1.21.1.jar",
+            "MD5": "2987072d76db05c5834cfd8c0377a62d"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:lithium:0.15.3+mc1.21.1@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 797398,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/lithium-fabric-0.15.3+mc1.21.1.jar",
+            "MD5": "469d5a220904850809f35f92f53854f1"
+          }
+        },
+        {
+          "id": "com.conquestreforged.arms:conq_medieval_arms-mod:2.1.0@jar",
+          "name": "Conquest's Medieval Arms",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1305257,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/MedievalArmsCR-fabric-2.1.0.jar",
+            "MD5": "9ea49639cf53b5bd50c7cbad53e0dd4e"
+          }
+        },
+        {
+          "id": "eu.midnightdust.core:midnightlib:1.9.3@jar",
+          "name": "MidnightLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 58781,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/midnightlib-fabric-1.9.3+1.21.1.jar",
+            "MD5": "422e8f303bbfa71f65025059a21d947f"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:11.0.4@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 973059,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/modmenu-11.0.4.jar",
+            "MD5": "b2b9c53a887c100f780708c4f36db6c4"
+          }
+        },
+        {
+          "id": "generated.fabricmod:placeholder-api:2.4.2+1.21@jar",
+          "name": "Placeholder API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 232325,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/placeholder-api-2.4.2+1.21.jar",
+            "MD5": "4de8568a088a276c94168514d625413d"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:polytone:1.21-3.5.5@jar",
+          "name": "Polytone",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 820271,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/polytone-1.21-3.5.5-fabric.jar",
+            "MD5": "d95c82a37335906aa29e06ee52ab828b"
+          }
+        },
+        {
+          "id": "net.puzzlemc.core:puzzle:2.3.0@jar",
+          "name": "Puzzle",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 144462,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/puzzle-fabric-2.3.0+1.21.1.jar",
+            "MD5": "fdca13570cabd8d4158b549a3b210a88"
+          }
+        },
+        {
+          "id": "com.quickskin.mod:quickskin:2.6.2.4@jar",
+          "name": "QuickSkin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 4905627,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/Quick%20Skin%20-%20Fabric%20-%201.21.1-2.6.2.4.jar",
+            "MD5": "3b441f86ffd042b3eb8b80aaf56e592f"
+          }
+        },
+        {
+          "id": "generated.fabricmod:reeses-sodium-options:1.8.3+mc1.21.4@jar",
+          "name": "Reese's Sodium Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 81067,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/reeses-sodium-options-fabric-1.8.3+mc1.21.4.jar",
+            "MD5": "85f69ebd3bde2559ee53c01daa8e361e"
+          }
+        },
+        {
+          "id": "net.minecraftfr.roleplaychat:roleplay-chat:1.0.0+1.21.1@jar",
+          "name": "Roleplay chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 46338,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/roleplay-chat-1.0.0+1.21.1.jar",
+            "MD5": "fae90d2c6f5ffed59e06a34314fd3364"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.6.13+mc1.21.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1297761,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/sodium-fabric-0.6.13+mc1.21.1.jar",
+            "MD5": "aa37ba0048a1af6b554b137088cad484"
+          }
+        },
+        {
+          "id": "xaero.map:xaeroworldmap:1.44.2@jar",
+          "name": "Xaero's World Map",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1448218,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/xaeroworldmap-fabric-1.21.1-1.44.2.jar",
+            "MD5": "779cde2dce63cf90d6b318933c2d1080"
+          }
+        },
+        {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.8.2+1.21.1-fabric@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1131265,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/yet_another_config_lib_v3-3.8.2+1.21.1-fabric.jar",
+            "MD5": "aadf11f5a793296be7c195e1ca388492"
+          }
+        },
+        {
+          "id": "generated.fabricmod:yosbr:0.1.2@jar",
+          "name": "YOSBR",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 17373,
+            "url": "http://localhost:8080/servers/Test1-1.21.1/fabricmods/required/yosbr-0.1.2.jar",
+            "MD5": "9fcce225f25b6fd17921c87ff1c720f1"
+          }
+        }
+      ]
+    }
+  ]
+}
